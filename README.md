@@ -224,7 +224,7 @@ print(f"Average density: {eastern_ontario['population_density'].mean():,.0f}")
 - Scatter plots for relationship analysis
 - Heatmaps for correlation matrices
 
-## 📊 Insights
+## 📊 Results
 
 ### Market Characteristics
 
