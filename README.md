@@ -1,4 +1,4 @@
-# 🏪 Farm Boy Market Analysis
+# Farm Boy Market Analysis
 
 > Comprehensive demographic and geographic analysis of Farm Boy store locations across Ontario, Canada
 
