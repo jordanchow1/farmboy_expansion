@@ -2,7 +2,7 @@
 
 > Comprehensive demographic and geographic analysis of Farm Boy store locations across Ontario, Canada
 
-## 🎯 Overview
+## Overview
 
 This project analyzes the demographic characteristics and geographic distribution of **51 Farm Boy grocery store locations** across Ontario. By merging store location data with Statistics Canada 2021 Census data at the Forward Sortation Area (FSA) level, we identify key market patterns, demographic preferences, and expansion opportunities.
 
@@ -14,7 +14,7 @@ This project analyzes the demographic characteristics and geographic distributio
 - What are the characteristics of high-performing markets?
 - Where are the best opportunities for expansion?
 
-## 🔑 Key Findings
+## Key Findings
 
 ### Market Profile
 
@@ -45,7 +45,7 @@ This project analyzes the demographic characteristics and geographic distributio
 - 78% are in medium to high-density markets
 - Strong preference for mature, family-oriented communities
 
-## 📊 Dataset
+## Dataset
 
 ### Data Sources
 
@@ -83,7 +83,7 @@ Ontario FSA prefixes indicate region:
 - **N** - Southwestern Ontario (London, Windsor, etc.)
 - **P** - Northern Ontario (Sudbury, Thunder Bay)
 
-## 🔍 Analysis Components
+## Analysis Components
 
 ### 1. Descriptive Statistics
 - Summary statistics for all demographic variables
@@ -110,7 +110,7 @@ Ontario FSA prefixes indicate region:
 - Density vs. age patterns
 - Population vs. market characteristics
 
-## 📈 Visualizations
+## Visualizations
 
 ### Generated Outputs
 
@@ -145,7 +145,7 @@ Ontario FSA prefixes indicate region:
    - Detailed statistics and insights
    - Expansion recommendations
 
-## 💻 Usage
+## Usage
 
 ### Quick Analysis
 
@@ -224,7 +224,7 @@ print(f"Average density: {eastern_ontario['population_density'].mean():,.0f}")
 - Scatter plots for relationship analysis
 - Heatmaps for correlation matrices
 
-## 📊 Results
+## Results
 
 ### Market Characteristics
 
@@ -274,12 +274,12 @@ print(f"Average density: {eastern_ontario['population_density'].mean():,.0f}")
 4. Metcalfe - 14,378 per sq km
 5. Yonge and Soudan - 9,988 per sq km
 
-## 👏 Acknowledgments
+## Acknowledgments
 
 - **Statistics Canada** for providing 2021 Census data
 - **Farm Boy** for store location information
 
-## 📚 References
+## References
 
 - [Statistics Canada 2021 Census](https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/index-eng.cfm)
 - [FSA Geographic Information](https://www.canadapost-postescanada.ca/cpc/en/support/articles/addressing-guidelines/postal-codes.page)
