@@ -114,7 +114,8 @@ Ontario FSA prefixes indicate region:
 
 ### Select Outputs
 
-![Alt text for the chart](https://github.com/jordanchow1/farmboy_expansion/blob/main/correlation_matrix.png)
+![Correlation Matrix](https://github.com/jordanchow1/farmboy_expansion/blob/main/correlation_matrix.png)
+![Regional Comparison](https://github.com/jordanchow1/farmboy_expansion/blob/main/regional_comparison.png)
 
 ## 🔬 Methodology
 
