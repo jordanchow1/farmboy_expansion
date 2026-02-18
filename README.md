@@ -112,33 +112,9 @@ Ontario FSA prefixes indicate region:
 
 ## Visualizations
 
-### Generated Outputs
+### Select Outputs
 
-1. **`farm_boy_dashboard_summary.png`**
-   - Executive dashboard with key metrics
-   - Market type distribution pie chart
-   - Regional breakdown bar chart
-   - Top markets tables
-
-2. **`farm_boy_complete_analysis.png`**
-   - 9-panel comprehensive visualization
-   - Population, density, and age distributions
-   - Market type and age category breakdowns
-   - Regional comparisons
-   - Scatter plots showing relationships
-
-3. **`farm_boy_regional_comparison.png`**
-   - Box plots by region
-   - Population distribution comparison
-   - Density distribution comparison
-   - Age demographics by region
-   - Stacked bar charts
-
-4. **`farm_boy_market_insights.png`**
-   - Top 15 markets by population
-   - Top 15 markets by density
-   - Correlation heatmap
-   - Market segmentation scatter plot
+![Alt text for the chart](https://github.com/jordanchow1/farmboy_expansion/blob/main/correlation_matrix.png)
 
 ## 🔬 Methodology
 
