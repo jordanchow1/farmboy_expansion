@@ -1,68 +1,146 @@
 # Farm Boy Market Analysis
 
-> Demographic & geographic analysis of 51 Farm Boy store locations across Ontario, Canada, with regional clustering controls.
+Comprehensive **demographic, geographic, and spatial analysis** of 51 Farm Boy grocery store locations across Ontario, Canada — enhanced with a **Geographic Control Layer** to account for clustering and regional saturation effects.
+
+---
 
 ## Overview
 
-Analyze Farm Boy store locations with 2021 Census data at the FSA level to identify:  
-- Market demographics & preferences  
-- High-value areas & expansion opportunities  
-- Geographic effects on store performance  
+This project analyzes market characteristics and expansion opportunities for Farm Boy by combining:
 
-**New:** Introduced a **Geographic Control Layer** to account for clustering and regional saturation.
+- Geocoded store locations  
+- 2021 Statistics Canada Census data (FSA-level)  
+- Engineered spatial variables  
+
+Rather than evaluating demographics alone, this analysis isolates **true market potential** from spatial saturation effects.
+
+---
 
 ## Business Questions
 
-- Typical Farm Boy customer demographic?  
-- How do population, density, and age vary across locations?  
-- How does proximity to existing stores influence opportunities?  
-- Where are underpenetrated markets for expansion?
+- What defines the typical Farm Boy trade area?
+- How do population, density, and age vary across store locations?
+- How clustered are current store locations?
+- Which FSAs show expansion potential after controlling for proximity effects?
+- Do demographic drivers remain significant once spatial controls are included?
 
-## Key Insights
+---
 
-- **Market Sweet Spot:** 30k–45k population, 1,500–3,500 people/km², median age 38–42  
-- **Demographic Focus:** 35–45 age, medium/high-density suburban areas  
-- **Geographic Control Layer:**  
-  - Distance-to-nearest-store variable introduced  
-  - Optional region dummies: GTA, Ottawa, Other Ontario  
-  - Demographic trends persist after accounting for clustering  
+## Geographic Control Layer
 
-## Dataset
+### Why It Matters
 
-- **Store Data:** 51 locations, FSA codes, addresses  
-- **Census Data:** Population, land area, density, median age  
+Stores are heavily clustered in the GTA and Ottawa. Without controlling for geography, demographic analysis can misidentify opportunity due to regional concentration.
 
-**New Feature:** `distance_to_nearest_store` (km)  
+The Geographic Control Layer corrects for this.
 
-## Analysis Workflow
+### Spatial Variables Added
 
-1. **Descriptive Stats:** Means, medians, quartiles  
-2. **Market Categorization:** Density & age bins, regional groupings  
-3. **Regional Analysis:** Compare demographics by region  
-4. **Geographic Control Layer:** Adjust for clustering, identify saturated vs underpenetrated FSAs  
-5. **Segmentation & Correlation:** Population × density quadrants, correlation matrices  
-6. **Visualization:** Scatter plots, boxplots, heatmaps  
+- `distance_to_nearest_store` (km) — calculated using the Haversine formula  
+- Regional dummy variables:
+  - GTA  
+  - Ottawa  
+  - Other Ontario  
 
-## Visuals
+### What It Enables
 
-![Correlation Matrix](https://github.com/jordanchow1/farmboy_expansion/blob/main/correlation_matrix.png)  
-![Regional Comparison](https://github.com/jordanchow1/farmboy_expansion/blob/main/regional_comparison.png)  
+- Identification of saturation zones  
+- Separation of demographic attractiveness from geographic clustering  
+- Detection of underpenetrated but demographically aligned FSAs  
+- More defensible, data-driven expansion recommendations  
 
-## Results Snapshot
+---
 
-- **Median Population:** 32,046  
-- **Median Density:** 2,005/km²  
-- **Median Age:** 40  
-- **High-density clusters:** College & Bay (31,245/km²), Sugar Wharf (23,791/km²)  
-- **Population hotspots:** Mapleview (100,835), Greenbank (81,863)  
-- Distance-to-nearest-store reveals regional saturation and expansion potential  
+## Market Profile Findings
 
-## Acknowledgments
+### Core Demographic Sweet Spot
 
-- **Statistics Canada** – Census 2021  
-- **Farm Boy** – Store data  
+- **Population:** 30,000–45,000  
+- **Density:** 1,500–3,500 people/km²  
+- **Median Age:** 38–42  
+
+Farm Boy locations are concentrated in medium-to-high density suburban markets with mature, family-oriented demographics.
+
+---
+
+## Spatial Insights
+
+After controlling for proximity and region:
+
+- Demographic signals remain strong  
+- High-density urban cores show clustering saturation  
+- Several mid-density FSAs outside major clusters emerge as expansion candidates  
+- Distance-based analysis prevents overestimating demand in already saturated zones  
+
+---
+
+## Data Sources
+
+### Store Data
+- 51 Farm Boy locations  
+- Geocoded to FSA level  
+
+### Census Data (2021)
+- Population  
+- Land area  
+- Population density  
+- Median age  
+
+Source: Statistics Canada 2021 Census
+
+---
+
+## Methodology
+
+1. Data cleaning and geocoding  
+2. FSA-level demographic aggregation  
+3. Haversine distance calculation  
+4. Regional segmentation (GTA, Ottawa, Other)  
+5. Market categorization (population × density bins)  
+6. Correlation and spatial control analysis  
+7. Visualization and summary metrics  
+
+---
+
+## Key Metrics
+
+- **Median Population:** ~32,046  
+- **Median Density:** ~2,005 people/km²  
+- **Median Age:** ~40 years  
+- **Total Ontario FSAs analyzed:** 520  
+- **Total Store Locations:** 51  
+
+---
+
+## Example Outputs
+
+- Correlation heatmaps  
+- Population vs. Density quadrant analysis  
+- Regional demographic comparison  
+- Distance distribution analysis  
+
+---
+
+## Strategic Takeaways
+
+- Current footprint shows strong regional clustering.  
+- Spatial controls reveal demographic alignment independent of geography.  
+- Mid-density FSAs outside GTA clusters represent the strongest expansion opportunity.  
+- The Geographic Control Layer improves decision quality for site selection.  
+
+---
+
+## Tools Used
+
+- Python (Pandas, NumPy)  
+- Geospatial modeling (Haversine formula)  
+- Matplotlib / Seaborn  
+- Census data integration  
+- FSA-level spatial segmentation  
+
+---
 
 ## References
 
-- [Statistics Canada 2021 Census](https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/index-eng.cfm)  
-- [FSA Geographic Info](https://www.canadapost-postescanada.ca/cpc/en/support/articles/addressing-guidelines/postal-codes.page)  
+- Statistics Canada 2021 Census  
+- Canada Post FSA geographic reference data  
