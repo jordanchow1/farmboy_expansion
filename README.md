@@ -41,7 +41,7 @@ Education level is the strongest predictor of store presence.
 
 Education correlates strongly with workforce participation and employment stability.
 
-**Workforce stability drives consistent grocery behavior more than raw income.**
+**Workforce stability drives consistent grocery behaviour more than raw income.**
 
 This insight expands the viable market by approximately **40%** compared to income-based targeting.
 
