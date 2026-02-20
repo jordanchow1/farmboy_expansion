@@ -122,7 +122,7 @@ The concentration in Ottawa suggests continued depth potential in that region, w
 
 ## Revised Site Selection Framework
 
-### New Data-Driven Criteria
+### Data-Driven Criteria
 
 **Primary Screening:**
 - Education ≥ 22%  
