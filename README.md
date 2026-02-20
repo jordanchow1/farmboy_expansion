@@ -54,3 +54,43 @@ The logistic regression model:
 - Produces expansion probability scores for the entire province
 
 High-potential FSAs were selected using a defined probability threshold and distance safeguards.
+
+---
+
+## Top 10 High-Potential FSAs (Logistic Regression Ranked)
+
+Based on predicted probability scores from the logistic regression model, the following FSAs exhibit the strongest statistical alignment with existing Farm Boy locations while satisfying geographic control criteria:
+
+| Rank | FSA | Region  | Predicted Probability |
+|------|-----|---------|----------------------|
+| 1 | K1P | Ottawa | 0.988 |
+| 2 | K1S | Ottawa | 0.981 |
+| 3 | K1Y | Ottawa | 0.980 |
+| 4 | K1R | Ottawa | 0.973 |
+| 5 | K1M | Ottawa | 0.926 |
+| 6 | K1V | Ottawa | 0.916 |
+| 7 | K2A | Ottawa | 0.914 |
+| 8 | L5M | GTA | 0.904 |
+| 9 | L6M | GTA | 0.899 |
+| 10 | K2M | Ottawa | 0.897 |
+
+---
+
+### Interpretation
+
+These FSAs:
+
+- Strongly resemble the demographic profile of current Farm Boy trade areas  
+- Maintain sufficient separation from oversaturated clusters  
+- Score highest in probability-based suitability modeling  
+
+The concentration of high-scoring FSAs in Ottawa suggests:
+- Continued depth opportunity within the Ottawa region
+- Potential micro-cluster optimization strategy
+- Need for cannibalization analysis before deployment
+
+GTA candidates (L5M, L6M) represent selective suburban expansion potential rather than dense urban infill.
+
+---
+
+These ranked FSAs represent statistically defensible expansion candidates derived from supervised predictive modeling rather than heuristic screening.
