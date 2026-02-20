@@ -203,6 +203,9 @@ This framework moves expansion planning from descriptive analytics to structured
 
 ---
 
+## Visuals
+[correlation_matrix](https://github.com/jordanchow1/farmboy_expansion/blob/main/correlation_matrix.png)
+
 ## References
 
 - Statistics Canada 2021 Census  
