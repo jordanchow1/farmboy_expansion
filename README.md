@@ -205,6 +205,7 @@ This framework moves expansion planning from descriptive analytics to structured
 
 ## Visuals
 ![correlation_matrix](https://github.com/jordanchow1/farmboy_expansion/blob/main/correlation_matrix.png)
+![regional_comparison](https://github.com/jordanchow1/farmboy_expansion/blob/main/regional_comparison.png)
 
 ## References
 
