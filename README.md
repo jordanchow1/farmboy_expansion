@@ -1,6 +1,6 @@
 # Farm Boy Market Analysis
 
-Comprehensive **demographic, geographic, and spatial analysis** of 51 Farm Boy grocery store locations across Ontario, Canad, with a **Geographic Control Layer** added to account for clustering and regional saturation effects.
+Comprehensive **demographic, geographic, and spatial analysis** of 51 Farm Boy grocery store locations across Ontario, Canada, with a **Geographic Control Layer** added to account for clustering and regional saturation effects.
 
 ---
 
