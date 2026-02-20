@@ -9,9 +9,9 @@ Farm Boy’s current Ontario footprint is heavily concentrated in the GTA and Ot
 
 This project builds a **probability-driven expansion framework** that integrates demographic profiling, geographic controls, and logistic regression modeling to systematically identify high-potential Forward Sortation Areas (FSAs) across Ontario.
 
-Rather than relying on heuristic thresholds (e.g., population bands or density cutoffs), this model estimates the likelihood that any Ontario FSA resembles existing Farm Boy trade areas — while controlling for spatial saturation effects.
+Rather than relying on heuristic thresholds (e.g., population bands or density cutoffs), this model estimates the likelihood that any Ontario FSA resembles existing Farm Boy trade areas, while controlling for spatial saturation effects.
 
-The result is a ranked, defensible list of expansion-ready FSAs grounded in statistical alignment and geographic discipline.
+The result is a ranked list of expansion-ready FSAs grounded in statistical alignment and geographic discipline.
 
 ---
 
