@@ -43,8 +43,6 @@ Education correlates strongly with workforce participation and employment stabil
 
 **Workforce stability drives consistent grocery behaviour more than raw income.**
 
-This insight expands the viable market by approximately **40%** compared to income-based targeting.
-
 ---
 
 ## Three Successful Market Segments
