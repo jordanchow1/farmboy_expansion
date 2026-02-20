@@ -158,3 +158,9 @@ Farm Boy’s next phase of growth should prioritize:
 - Strategic expansion into Southwestern Ontario  
 
 The result: smarter capital allocation, reduced risk, and scalable growth across Ontario.
+
+---
+
+## Visuals
+![correlation_matrix](https://github.com/jordanchow1/farmboy_expansion/blob/main/correlation_matrix.png)
+![regional_comparison](https://github.com/jordanchow1/farmboy_expansion/blob/main/regional_comparison.png)
