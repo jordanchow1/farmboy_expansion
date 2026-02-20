@@ -109,34 +109,97 @@ Source: Statistics Canada 2021 Census
 - **Median Age:** ~40 years  
 - **Total Ontario FSAs analyzed:** 520  
 - **Total Store Locations:** 51  
+---
+
+## Business Recommendations
+
+Using the ranked list of underserved FSAs (`underserved_fsas_ranked.csv`), expansion strategy should prioritize markets that:
+
+- Match Farm Boy’s demographic sweet spot  
+- Are materially distant from existing stores  
+- Sit outside high-saturation GTA clusters  
+- Exhibit strong population–density balance  
+
+### 1. Tiered Expansion Strategy
+
+#### Tier 1: Immediate Feasibility Assessment
+Top-ranked FSAs with:
+- High demographic alignment (population + density within target band)
+- Strong distance from nearest existing store
+- Mid-to-large population base
+
+**Action:**  
+Conduct micro-site feasibility studies, including:
+- Real estate availability
+- Traffic flow analysis
+- Retail co-tenancy mapping
+- Household income validation
+
+These FSAs represent the highest-probability expansion candidates.
 
 ---
 
-## Example Outputs
+#### Tier 2: Medium-Term Pipeline Markets
+FSAs that:
+- Slightly miss one demographic threshold (e.g., density just below ideal range)
+- Are geographically strategic (bridge markets between clusters)
 
-- Correlation heatmaps  
-- Population vs. Density quadrant analysis  
-- Regional demographic comparison  
-- Distance distribution analysis  
-
----
-
-## Strategic Takeaways
-
-- Current footprint shows strong regional clustering.  
-- Spatial controls reveal demographic alignment independent of geography.  
-- Mid-density FSAs outside GTA clusters represent the strongest expansion opportunity.  
-- The Geographic Control Layer improves decision quality for site selection.  
+**Action:**  
+Monitor population growth trends and housing development permits.  
+These areas may become optimal within 2–3 years.
 
 ---
 
-## Tools Used
+#### Tier 3: Strategic Regional Diversification
+FSAs located:
+- Outside GTA/Ottawa clusters  
+- In mid-sized Ontario markets  
+- With strong demographic alignment but historically underpenetrated
 
-- Python (Pandas, NumPy)  
-- Geospatial modeling (Haversine formula)  
-- Matplotlib / Seaborn  
-- Census data integration  
-- FSA-level spatial segmentation  
+**Action:**  
+Pilot 1–2 stores to test regional elasticity and brand transferability.
+
+This reduces long-term overexposure to GTA saturation risk.
+
+---
+
+## Geographic Risk Management
+
+The Geographic Control Layer reveals that:
+
+- Current store density is heavily clustered.
+- Marginal returns in saturated urban cores are likely diminishing.
+- Distance-adjusted opportunity scores better predict whitespace.
+
+### Recommendation:
+Adopt a **minimum distance threshold policy** for new stores (e.g., X km from existing location unless in ultra-high-density core zones).
+
+This institutionalizes spatial discipline into site selection.
+
+---
+
+## Capital Allocation Framework
+
+Allocate expansion capital using a weighted scoring model:
+
+- 40% Demographic Fit  
+- 30% Distance from Existing Stores  
+- 20% Regional Diversification Value  
+- 10% Growth Indicators (housing starts, migration trends)
+
+This formalizes expansion decisions and reduces subjective bias.
+
+---
+
+## Strategic Conclusion
+
+The Geographic Control Layer strengthens expansion decisions by separating:
+- True demographic demand  
+- From geographic clustering bias  
+
+The ranked underserved FSAs represent disciplined, data-driven expansion targets rather than opportunistic site selection.
+
+This framework moves expansion planning from descriptive analytics to structured spatial strategy.
 
 ---
 
