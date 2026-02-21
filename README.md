@@ -161,6 +161,35 @@ The result: smarter capital allocation, reduced risk, and scalable growth across
 
 ---
 
+## Technical Deep Dive
+
+### 1. The Success Profile Anomaly ($r = 0.07$)
+A critical discovery during the Exploratory Data Analysis (EDA) phase was the "decoupling" of Income and Education within the 51 existing store locations. 
+
+While these variables are typically collinear in general census data, the **Farm Boy "Success Profile"** shows a near-zero correlation ($r = 0.07$).
+
+* **The Insight:** Farm Boy succeeds in "High Education" hubs regardless of whether those areas are "ultra-wealthy." 
+* **The Signal vs. Noise:** Income was found to be a noisy predictor ($d = 0.23$ effect size), while **Bachelor’s Degree density** emerged as the strongest predictor of store presence ($d = 1.45$ effect size).
+
+
+
+### 2. Feature Selection & Statistical Significance
+To build the "New Approach" framework, I conducted Independent T-tests to compare existing store FSAs against 466 potential sites.
+
+| Feature | Importance | Rationale | Statistical Weight |
+| :--- | :--- | :--- | :--- |
+| **Education Rate** | **Critical** | Existing stores have 51% higher edu rates. | $p < 0.001$ |
+| **Pop. Density** | **High** | Critical for foot traffic (Target: 1.5k - 5k/km²). | Significant |
+| **Median Age** | **Medium** | Target demographic identified as 38–43 years. | Moderate |
+| **Median Income** | **Low** | High volatility among successful sites ($r=0.07$). | $p > 0.05$ |
+
+### 3. Methodology & Workflow
+* **Data Aggregation:** Merged 2021 Census data with geospatial store location data.
+* **Success Profiling:** Isolated the top 51 performing FSAs to build a "Lookalike" model.
+* **Geospatial Analysis:** Scanned non-store FSAs to identify clusters in Southwestern Ontario that match the high-education profile.
+
+--
+
 ## Visuals
 ![correlation_matrix](https://github.com/jordanchow1/farmboy_expansion/blob/main/correlation_matrix.png)
 ![regional_comparison](https://github.com/jordanchow1/farmboy_expansion/blob/main/regional_comparison.png)
