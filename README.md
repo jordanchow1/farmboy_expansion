@@ -80,7 +80,7 @@ Current store penetration:
 Southwestern Ontario shares similar demographic characteristics with successful store areas but has fewer locations.
 
 ### Identified Opportunity
-- 8–12 viable FSAs  
+- 10 viable FSAs  
 - $40M–$60M revenue potential  
 
 ---
