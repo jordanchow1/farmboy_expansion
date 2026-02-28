@@ -3,6 +3,10 @@
 
 ---
 
+This analysis identifies Education Level—not Income—as the strongest predictor of successful Farm Boy locations across 520 Ontario FSAs. A logistic regression model reveals 10 high-potential expansion zones and estimates a $40M–$60M revenue opportunity. The findings challenge traditional income-based targeting and propose a data-driven framework that could reduce site evaluation errors by 40–60%.
+
+---
+
 ## The $10M Question
 
 Site selection is expensive and high risk:
