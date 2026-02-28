@@ -205,3 +205,11 @@ Figure 2: Regional Comparison Graphs
 
 ## Data Structure Overview (ERD)
 ![ERD](https://github.com/jordanchow1/farmboy_expansion/blob/main/eraser_diagram.png)
+
+---
+
+## Assumptions & Limitations
+- Census data may not capture recent demographic shifts
+- Store “success” proxied by presence, not revenue
+- Model does not incorporate competitor density
+- FSA aggregation may mask micro-neighborhood variation
