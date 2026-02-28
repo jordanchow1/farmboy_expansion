@@ -198,7 +198,7 @@ To build the "New Approach" framework, I conducted Independent T-tests to compar
 ![correlation_matrix](https://github.com/jordanchow1/farmboy_expansion/blob/main/correlation_matrix.png)
 ![regional_comparison](https://github.com/jordanchow1/farmboy_expansion/blob/main/regional_comparison.png)
 
---
+---
 
 ## Data Structure Overview (ERD)
 ![ERD](https://github.com/jordanchow1/farmboy_expansion/blob/main/eraser_diagram.png)
