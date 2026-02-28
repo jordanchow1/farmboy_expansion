@@ -192,9 +192,13 @@ To build the "New Approach" framework, I conducted Independent T-tests to compar
 * **Success Profiling:** Isolated the top 51 performing FSAs to build a "Lookalike" model.
 * **Geospatial Analysis:** Scanned non-store FSAs to identify clusters in Southwestern Ontario that match the high-education profile.
 
+---
 
 ## Visuals
+Figure 1: Correlation Matrix of Key Demographics
 ![correlation_matrix](https://github.com/jordanchow1/farmboy_expansion/blob/main/correlation_matrix.png)
+
+Figure 2: Regional Comparison Graphs
 ![regional_comparison](https://github.com/jordanchow1/farmboy_expansion/blob/main/regional_comparison.png)
 
 ---
